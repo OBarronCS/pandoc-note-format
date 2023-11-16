@@ -1,0 +1,1 @@
+pandoc --lua-filter="$HOME/columns/columns.lua" in.md -o out.pdf
