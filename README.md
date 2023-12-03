@@ -16,7 +16,9 @@ codehere
 ```
 ````
 
-# dnf dependency
+# dnf dependencies
 ```
+sudo dnf install pandoc
+sudo dnf install texlive
 sudo dnf install 'tex(fvextra.sty)'
 ```
