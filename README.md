@@ -7,6 +7,8 @@ cat <<EOF > ~/.local/bin/pandoc
 #!/bin/sh
 docker run --rm -v $(pwd):/app -u $(id -u):$(id -g) pandoc-container $@
 EOF
+
+chmod +x ~/.local/bin/pandoc
 ```
 
 # On Host
